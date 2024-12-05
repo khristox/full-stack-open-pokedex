@@ -12,4 +12,4 @@ jobs:
       - name: The Current Directory 
         run: echo `pwd`        
       - name: The Current Directory Contents
-        run: echo `ls -l`  
+        run: ls -l
