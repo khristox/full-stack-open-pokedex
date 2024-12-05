@@ -11,3 +11,5 @@ jobs:
         run: echo `date --date='@2147483647'`
       - name: The Current Directory 
         run: echo `pwd`        
+      - name: The Current Directory Contents
+        run: echo `ls -l`  
