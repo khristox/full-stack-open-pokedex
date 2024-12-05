@@ -3,3 +3,4 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Say Hello:
+    runs-on: ubuntu-latest
