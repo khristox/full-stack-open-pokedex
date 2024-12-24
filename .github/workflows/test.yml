@@ -8,7 +8,7 @@ jobs:
       - name: Say Hello 
         run: echo "Hello World"
       - name: The Current Date is 
-        run: echo `date --date='@2147483647' "Current Date"`
+        run: echo `date --date='@2147483647'`
       - name: The Current Directory 
         run: echo `pwd`        
       - name: The Current Directory Contents
